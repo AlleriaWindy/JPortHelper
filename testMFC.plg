@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: testMFC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE3A2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/testMFC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC6.0\MyProjects\testMFC\testMFCDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE3A2.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE3A3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/testMFC.pdb" /debug /machine:I386 /out:"Debug/testMFC.exe" /pdbtype:sept 
+.\Debug\MyDialog1.obj
+.\Debug\MyMusicPlay.obj
+.\Debug\MySerial.obj
+.\Debug\StdAfx.obj
+.\Debug\testMFC.obj
+.\Debug\testMFCDlg.obj
+.\Debug\testMFC.res
+.\Lcylib.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE3A3.tmp"
+<h3>Output Window</h3>
+Compiling...
+testMFCDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/testMFC.bsc"  .\Debug\StdAfx.sbr .\Debug\MyDialog1.sbr .\Debug\MyMusicPlay.sbr .\Debug\MySerial.sbr .\Debug\testMFC.sbr .\Debug\testMFCDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+testMFC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
